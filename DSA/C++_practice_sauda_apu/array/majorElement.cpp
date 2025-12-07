@@ -20,7 +20,7 @@ int majorElement(vector<int>&nums){
 }
 
  int main() {
-    vector<int> nums = {2, 2, 1, 1, 1, 2, 2};
+    vector<int> nums = {2, 2, 1, 1, 1, 2, 2,1,1};
 
     int ans = majorElement(nums);
 
