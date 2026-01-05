@@ -14,7 +14,7 @@ int main(){
     int arr[]={4,1,5,2,3};
     bobbleSort(arr,n);
     for(int i=0;i<n;i++){
-    cout<<arr[i]<<"";
-    cout<<endl;
+    cout<<arr[i]<<" ";
+    
     }
 }
