@@ -11,7 +11,8 @@ bool isFreqsame(int freq1[],int freq2[]){
 }
 bool chekInclusion(string s1,string s2){
     int freq[26]={0};
-    for(int i=0;i<s1.length();i++){
+    for(int i=0;i<s1.length();i++)
+    {
         freq[s1[i]-'a']++;
     }
     int windSize=s1.length();
@@ -33,6 +34,6 @@ bool chekInclusion(string s1,string s2){
 }
 int main (){
     string s1="ab";
-    string s2="eidbaooo";
+    string s2="eidbabooo";
     cout<<chekInclusion(s1,s2)<<endl;
 }
