@@ -43,7 +43,7 @@ int main() {
    // idx = -1; // important reset
     Node* root = buildTree(preorder);
 
-    cout << "Inorder TravarSal: ";
+    cout << "Post Order TravarSal: ";
     PostOrder(root);
     cout << endl;
 
